@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('scm') {
             steps {
-        git branch: 'main', url: 'https://github.com/Bavyadharshini-Rajaganapathy/devops1.git'
+        git branch: 'main', url: 'https://github.com/Bavyadharshini-Rajaganapathy/simple-web-app.git'
             }
         }
         stage('build') {
